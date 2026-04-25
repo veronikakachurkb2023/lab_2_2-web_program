@@ -68,7 +68,7 @@ function App() {
             theme === "dark" ? "text-white" : "text-[#2b2b2b]"
           }`}
         >
-          Cybersecurity Student 🚀
+          Cybersecurity Student
         </p>
 
         <button
