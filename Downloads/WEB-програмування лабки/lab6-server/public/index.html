@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kachur Veronika - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kachur Veronika</h1>
+        <p>Cybersecurity Student</p>
+        <nav>
+            <button id="theme-toggle">Switch Theme</button>
+            <ul>
+                <li><a href="#contact">Contact Information</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#tech-skills">Tech Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#additional">Additional Information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: veronika.kachur@gmail.com</li>
+                <li>Location: Lviv, Ukraine</li>
+            </ul>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Student of Lviv Polytechnic National University since 2023. Interested in backend development and cybersecurity.</p>
+        </section>
+
+        <section id="tech-skills">
+            <h2>Tech Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Cybersecurity Tools (Wireshark, Kali Linux)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Cybersecurity Simulation</li>
+                <li>Project 2: Web Application Development</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Cybersecurity, Lviv Polytechnic National University, 2023 - Present</p>
+        </section>
+
+        <section id="additional">
+            <h2>Additional Information</h2>
+            <ul>
+                <li>Fluent in English and Ukrainian</li>
+                <li>Passionate about ethical hacking and network security</li>
+            </ul>
+        </section>
+
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div id="reviews-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Kachur Veronika. Personal CV page.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-button">×</button>
+
+            <h2>Contact Me</h2>
+
+            <form id="contact-form">
+                <input id="name" type="text" name="name" placeholder="Your name" required>
+                <input id="email" type="email" name="email" placeholder="Your email" required>
+                <input id="phone" type="tel" name="phone" placeholder="Your phone" required>
+                <input id="subject" type="text" name="subject" placeholder="Subject" required>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
